@@ -1,0 +1,93 @@
+//La  empresa  comercializadora  Solva  vende  escobas,  recogedores  y 
+//aromatizantes, clasifica a sus clientes de  acuerdo a la frecuencia de compras 
+//con las condiciones siguientes:
+//Si el cliente es de la categoría 1 se le descuenta el 5%
+//Si el cliente es de la categoría 2 se le descuenta el 8%
+//Si el cliente de de la categoría 3 se le descuenta el 12%
+//Si el cliente es de la categoría 4 se le descuenta el 15%
+//Cuando el cliente realiza una compra se generan los siguientes datos:
+//Nombre del cliente
+//Tipo de cliente
+//Cantidad comprada de escobas, recogedores y aromatizantes 
+//Desarrollar un algoritmo que lea estos datos y calcule y muestre:
+//Nombre del cliente
+//Subtotal a pagar
+//Descuento
+//Total a pagar.
+
+cadena [30]nombre
+real valores,valorre,valorar,ventas,descuento
+entero escobas,recogedores,aromatizantes,categoria
+
+inicio
+
+escriba "nombre del cliente"
+llamar nueva_linea
+lea nombre 
+
+escriba "cantidad comprada de escobas "
+llamar nueva_linea
+lea escobas
+
+escriba "cantidad comprada de recogedores "
+llamar nueva_linea
+lea recogedores
+
+escriba "cantidad comprada de aromatizantes "
+llamar nueva_linea
+lea aromatizantes 
+
+escriba "ingrese categoria (1)(2)(3)(4)"
+llamar nueva_linea
+lea categoria
+
+valores<-escobas*2000
+valorre<-recogedores*3000
+valorar<-aromatizantes*2500
+ventas<-valores+valorre+valorar
+
+si (categoria=1)entonces 
+descuento<-(ventas*5)/100
+escriba "el total es " ,ventas
+llamar nueva_linea
+escriba "el descuento es " ,descuento
+llamar nueva_linea
+escriba "el total a pagar es " ,ventas-descuento
+llamar nueva_linea
+sino 
+
+si(categoria=2)entonces
+descuento<-(ventas*8)/100
+escriba "el total es " ,ventas
+llamar nueva_linea
+escriba "el descuento es " ,descuento
+llamar nueva_linea 
+escriba "el total a pagar con descuento  es " ,ventas-descuento
+llamar nueva_linea
+sino
+
+si (categoria=3)entonces
+descuento<-(ventas*12)/100
+escriba "el total es " ,ventas
+llamar nueva_linea
+escriba "el descuento es " ,descuento
+llamar nueva_linea
+escriba "el total a pagar con descuento es " ,ventas-descuento
+llamar nueva_linea
+
+sino 
+
+si (categoria=4)entonces
+descuento<-(ventas*15)/100
+escriba "el total es " ,ventas
+llamar nueva_linea
+escriba "el descuento es " ,descuento
+llamar nueva_linea
+escriba "el total a pagar con descuento es " ,ventas-descuento
+llamar nueva_linea
+
+fin si
+fin si
+fin si 
+fin si 
+fin

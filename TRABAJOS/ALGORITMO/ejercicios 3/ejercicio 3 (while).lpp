@@ -1,0 +1,41 @@
+/*Una compañía paga $5,000 semanales a sus vendedores más una comisión 
+de  9%  del  total  de  ventas  realizadas.  Desarrolle  un  algoritmo  y  diagrama  de 
+flujo  que  pida  al  usuario  el  total  de  ventas  y  determine  el  pago  que  deberá 
+realizarse  a  cada  vendedor.  Mostrar  cuánto  fue  el  pago  y  a  cuántos 
+trabajadores les pagaron.    Tenga en cuenta que la condición se relaciona con 
+el hecho que los pagos realizados no pueden superar el total de ventas. */
+
+entero vende,comiv,n,cantidadv,comision,pagar
+
+
+
+inicio 
+pagar<-5000
+n<-1
+comision<-5000*9/100
+
+escriba "numero de vendedores "
+llamar nueva_linea 
+lea vende
+
+	mientras (n<=vende)haga
+	escriba "vendedor " ,n
+	llamar nueva_linea
+	escriba "cantidad de ventas "
+	lea cantidadv
+	llamar nueva_linea 
+	
+	
+	comiv<-cantidadv*comision
+	
+	escriba "el total a pagar es " ,comiv
+	llamar nueva_linea 
+	escriba "el total a pagar es " ,comiv+pagar
+	n<-n+1
+	
+	fin mientras
+	
+	escriba "se le paga  a un total de ",vende,"de trabajadores"
+	
+fin	
+	

@@ -1,0 +1,50 @@
+body{
+	padding: 100px 100px;
+	background-color:#073F4F;
+	list-style: square;
+	color: #fff;
+}
+
+
+div{
+	background-color:#ace2ff; 
+	border-radius: 10px solid #000;
+	background: 80px;
+	border-color: #284250;
+}	
+
+h2{
+	font-style: Helvetica; 
+	text-align: center;
+	background-color: #000;
+	border-radius: 15px;
+	border box-shadow: 30px;
+}
+
+input{
+	border-radius: 15px; 
+}
+
+ 
+
+form{
+	padding-top: 0;
+	padding-bottom: 0;	
+	width: 90%;
+}
+
+.dato{
+	padding: 40px;
+	border: 2px solid #000 ;
+}
+
+.datos{
+	border: 2px solid #000;
+}
+
+.l{
+	display:inline;
+	padding: 60px;
+}
+
+

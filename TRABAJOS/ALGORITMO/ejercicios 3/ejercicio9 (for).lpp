@@ -1,0 +1,15 @@
+entero m,num,mul
+
+inicio 
+
+mul<-10
+
+	escriba "ingrese el numero que desea multiplicar "
+	lea  num
+
+	para m<-1 hasta 10 haga 
+		llamar nueva_linea
+		escriba num,"*",m,"= ",(num*m)
+
+	fin para
+fin

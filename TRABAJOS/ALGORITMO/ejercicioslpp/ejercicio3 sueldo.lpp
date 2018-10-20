@@ -1,0 +1,12 @@
+real hora, valor
+inicio
+  escriba "cantidad de horas"
+  llamar nueva_linea
+  lea hora
+  escriba "valor de hora" 
+  llamar nueva_linea
+  lea valor
+  escriba "sueldo por hora es: ", hora*valor
+  llamar nueva_linea
+fin
+

@@ -1,0 +1,45 @@
+Arreglo [] de entero numero 
+ 
+ 
+ INICIO
+ 
+ numero [0]<- 33
+ numero [1]<- 43 
+ numero [2]<- 54
+ numero [3]<- 34
+ numero [4]<- 87
+ numero [5]<- 34
+ numero [6]<- 76
+ numero [7]<- 45
+ numero [8]<- 23
+ numero [9]<- 98
+ 
+ 
+ Escriba "ingrese un numero de 0 a 9: "
+ Lea numero[i]
+ Llamar nueva _linea
+ 
+ Escriba "el numero es " , numero[i]
+ llamar nueva_linea
+ 
+ Escriba "ingrese el numero a almacenar en la posicion " ,i ,": "
+ Lea numero[i]
+ llamar nueva_linea 
+ 
+ Escriba "el recorrido del arreglo del ciclo for "
+ para i<-0 hasta 9 haga 
+ 
+ escriba  "posicion [", i ,"] valor: " , numero [i]
+ llamar nueva_linea 
+
+ fin para 
+ 
+ escriba "metodo arreglos while " 
+ i<-0
+ mientras i<=9 haga 
+ 
+ escriba "posicion[",i ,"]valor :" ,numero[i]
+ llamar nueva linea
+ 
+ 
+ FIN

@@ -1,0 +1,30 @@
+ entero num1,num2
+ 
+ inicio
+ 	
+ 	escriba "ingrese numero1 "
+ 	llamar nueva_linea
+ 	lea num1
+ 	llamar nueva_linea
+ 	escriba "ingrese numero2 "
+ 	llamar nueva_linea
+ 	lea num2
+ 	
+ 	
+ 	si (num2<num1)entonces 
+ 	escriba "numero 1  es mayor "
+ 	sino
+ 	si (num1>num2)entonces 
+ 	escriba "numero 1 es mayor "
+ 	sino 
+ 	si (num1<num2)entonces 
+ 	escriba "numero 2 es mayor"
+ 	sino 
+ 	si (num1>num2)entonces
+ 	escriba "numero 2 es menor "
+ 	fin si
+ 	fin si
+ 	fin si
+ 	fin si
+ 	fin 
+ 	 

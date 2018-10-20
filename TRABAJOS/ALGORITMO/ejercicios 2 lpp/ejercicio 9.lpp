@@ -1,0 +1,28 @@
+real sueldo,valor
+
+inicio 
+
+escriba " ingrese sueldo "
+llamar nueva_linea
+lea sueldo
+
+si (sueldo<=1000)entonces 
+valor<-(sueldo*10)/100
+escriba "el sueldo es "  ,sueldo-valor
+
+sino 
+
+si (sueldo>1000)y(sueldo=2000)entonces
+valor<-(sueldo*5)/100
+escriba "el sueldo es " ,sueldo-valor
+
+sino 
+si(sueldo>2000)entonces
+valor<-(sueldo*3)/100
+escriba "el sueldo es " ,sueldo-valor
+
+fin si 
+fin si 
+fin si
+
+fin 

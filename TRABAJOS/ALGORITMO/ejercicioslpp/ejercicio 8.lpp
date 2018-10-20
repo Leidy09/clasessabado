@@ -1,0 +1,18 @@
+entero minutos,horas,horames
+
+inicio
+
+escriba "escriba la cantidad de  minutos  invertidos en conexion a redes "
+lea minutos 
+llamar nueva_linea 
+
+horas<-minutos*60
+horames<-horas*30 
+llamar nueva_linea
+escriba "la cantidad de horas al mes es " , horames/60
+fin
+
+
+
+
+

@@ -1,0 +1,21 @@
+cadena [65] nombre
+entero peso_libras
+entero altura_pies
+inicio
+escriba "nombre del elefante "
+lea nombre
+llamar nueva_linea
+escriba "peso en libras " 
+lea peso_libras
+llamar nueva_linea
+escriba "altura en pies "
+lea altura_pies
+llamar nueva_linea
+escriba " el nombre es ",nombre
+escriba " peso kilogramos es ", peso_libras* 0.45
+llamar nueva_linea
+escriba "la altura en metros es ",altura_pies* 0.3048 
+fin
+
+
+

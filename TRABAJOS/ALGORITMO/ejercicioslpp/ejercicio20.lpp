@@ -1,0 +1,25 @@
+//Tres  personas  deciden  invertir  su  dinero  para  fundar  una  empresa.  Cada  una  de  ellas  invierte 
+//una cantidad distinta. Obtener el porcentaje que cada quien invierte con respecto a la cantidad total 
+//invertida
+
+real valor1,valor2,valor3,total,cantidad1,cantidad2,cantidad3
+
+inicio 
+escriba "ingrese las 3 de dinero para fundar empresa "
+lea valor1
+lea valor2
+lea valor3 
+llamar nueva_linea
+total<-valor1+valor2+valor3
+
+cantidad1<-valor1/total*100
+cantidad2<-valor2/total*100
+cantidad3<-valor3/total*100
+
+escriba " el porcentaje de los tres invercionistas en la empresa es de "  , cantidad1 
+llamar nueva_linea 
+escriba cantidad2
+llamar nueva_linea 
+escriba cantidad3
+
+fin

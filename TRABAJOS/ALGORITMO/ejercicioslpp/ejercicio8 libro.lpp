@@ -1,0 +1,9 @@
+Real pesosoporte,pesolibros
+inicio
+pesosoporte<-33
+escriba "peso soporte " ,pesosoporte
+llamar nueva_linea
+escriba "peso por libros "
+lea pesolibros
+escriba "cantidad " , pesosoporte/pesolibros
+fin

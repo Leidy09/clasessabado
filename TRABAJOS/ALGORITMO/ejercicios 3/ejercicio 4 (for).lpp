@@ -1,0 +1,28 @@
+/*Calcular el promedio de un aprendiz que tiene 7 calificaciones en la materia de 
+Algoritmos*/
+
+entero n
+real suma,pro,nota
+
+inicio
+	
+		suma<-0
+	para n<-1 hasta 7 haga 
+	
+		escriba "ingrese nota ",n
+		llamar nueva_linea 
+		lea nota
+		suma<-suma+nota 
+		
+		
+	fin para
+		
+		pro<-suma/7
+
+
+		escriba "la suma es " , suma
+		llamar nueva_linea 
+		escriba "el promedio es " , pro 
+		
+		
+fin

@@ -1,0 +1,60 @@
+entero edadm,nivelh,edad
+caracter sexo
+inicio 
+
+escriba "ingrese edad en meses "
+llamar nueva_linea 
+lea edadm
+
+escriba "ingrese sexo(F)(M) "
+llamar nueva_linea 
+lea sexo
+
+
+escriba "ingrese nivel de hemoglobina "
+llamar nueva_linea 
+lea nivelh
+
+
+si ((edadm=0)o(edadm=1))y((nivelh=13)y(nivelh<=26))entonces 
+escriba "el paciente no tiene anemia "
+
+sino
+
+si ((edadm>1)o(edadm<=6))y ((nivelh=10)y(nivelh<=18))entonces 
+escriba "el paciente no tiene anemia "
+
+sino 
+
+si ((edadm>6)o(edadm<=12))y((nivelh=11)y(nivelh=15))entonces 
+escriba "el paciente no tiene anemia"
+
+sino
+
+si ((edadm=12)o(edadm<=60))y ((nivelh=12.6)y(nivelh<=15.5))entonces
+escriba "el paciente no tiene anemia "
+
+sino 
+ 
+si ((edadm>120)o(edadm<=180))y((nivelh=13)y(nivelh=15.5))entonces
+escriba "el paciente no  tiene anemia " 
+
+sino 
+
+si ((sexo='f')y(edad>15))y((nivelh=12)y(nivelh=16))entonces
+escriba "el paciente no  tiene anemia " 
+
+sino 
+si ((sexo='m')y(edad>15))y((nivelh=14)y(nivelh=18))entonces
+escriba "el paciente no  tiene anemia " 
+
+sino 
+escriba "el paciente  tiene anemia " 
+fin si
+fin si
+fin si
+fin si
+fin si
+fin si
+fin si
+fin 

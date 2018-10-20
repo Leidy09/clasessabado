@@ -1,0 +1,14 @@
+//El dueño de una tienda compra un articulo a un precio determinado. Obtener el precio en que lo 
+//debe vender para obtener una ganancia del 30%
+real valor,porciento
+inicio 
+
+escriba "precio del articulo "
+lea valor
+llamar nueva_linea 
+
+porciento<-valor*0.30
+
+escriba "el valor para venderlo con un 30% de ganancia es "  ,valor+porciento
+
+fin

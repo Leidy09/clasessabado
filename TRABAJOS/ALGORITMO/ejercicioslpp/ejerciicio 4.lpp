@@ -1,0 +1,12 @@
+cadena [30] nombre 
+entero numero
+
+inicio  
+
+escriba " ingrese nombre "
+lea nombre 
+llamar nueva_linea 
+numero<-longitud(nombre)
+escriba nombre[numero-1] , nombre[numero]
+
+fin

@@ -1,0 +1,20 @@
+real costo,altura,alturametros,escalones,numeroescalones,costototal
+inicio
+ escriba "costo"
+ lea costo
+ llamar nueva_linea
+ escriba "altura en kilometros "
+ lea altura
+ llamar nueva_linea
+ alturametros<-altura*1000
+ escriba "la altura en metros es ",alturametros
+ llamar nueva_linea
+ escalones<-3
+ escriba "cantidad de escalones por metro 3 " 
+ llamar nueva_linea
+ numeroescalones<-alturametros*escalones
+ escriba "numero escalones total " ,numeroescalones
+ llamar nueva_linea
+ costototal<-numeroescalones*costo
+ escriba "total " ,costototal
+ fin

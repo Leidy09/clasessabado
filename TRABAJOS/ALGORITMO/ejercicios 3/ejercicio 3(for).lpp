@@ -1,0 +1,26 @@
+/*Modifique el anterior algoritmo para que la salida además de la suma, muestre 
+el número de datos que fueron sumados*/
+
+entero num,n,suma,ing
+
+inicio
+suma<-0
+	Escriba "Digite cuantas notas va a calcular: "
+	Lea ing
+	
+	para n<-1 hasta ing haga 
+
+	escriba  "  ingrese numeros ", n
+	llamar nueva_linea
+	
+
+	lea num 
+
+suma<-suma+num
+
+	fin para 
+	
+	escriba	"la cantidad de numeros sumados " ,ing
+	llamar nueva_linea
+	escriba "la suma de los numeros es " ,suma
+fin

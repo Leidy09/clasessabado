@@ -1,0 +1,12 @@
+cadena[30] nombre,nombre1
+ inicio
+ escriba "nombre integrante 1"
+   llamar nueva_linea
+   lea nombre
+   llamar nueva_linea
+   escriba "nombre integrante 2"
+  llamar nueva_linea
+   escriba nombre1
+   lea nombre1
+  llamar nueva_linea
+fin

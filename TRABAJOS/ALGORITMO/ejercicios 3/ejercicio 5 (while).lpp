@@ -1,0 +1,39 @@
+entero sexof,sexom,n,can,sexo
+
+
+inicio
+
+sexof<-0
+sexom<-0
+n<-1
+
+escriba "ingrese la cantidad de aprendices "
+llamar nueva_linea
+lea can
+llamar nueva_linea
+
+
+	mientras (n<=can) haga
+	escriba "escriba cantidad de aprendiz " ,n 
+	llamar nueva_linea
+	escriba "ingrese sexo 1(f)2(M) "
+	llamar nueva_linea
+	lea sexo
+	
+			si sexo=1 entonces
+						sexof<- sexof + 1
+						sino si sexo=2 entonces
+							sexom<- sexom + 1
+						fin si
+					fin si
+					
+			
+	n<-n+1
+	
+	fin mientras
+	
+		escriba "La cantidad de mujeres en el salon es:  ", sexof
+				Llamar nueva_linea
+		escriba "La cantidad de hombres en el salon es:  ", sexom	
+	
+fin

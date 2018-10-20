@@ -1,0 +1,41 @@
+/*Modifique  el  anterior  algoritmo  para  que  imprima  el  promedio  de  todos  los 
+números,  el  número  de  valores  positivos  y  el  promedio  de  los  números 
+positivos.*/
+
+entero n,cant,suma,posi
+real pro,pos,nu
+
+inicio
+suma<-0
+n<-1
+posi<-0
+
+	escriba "ingrese cantidad de numeros "
+	llamar nueva_linea 
+	lea cant
+	
+		mientras (n<=cant)haga
+		llamar nueva_linea
+		escriba "ingrese numero " ,n
+		llamar nueva_linea 
+		lea nu
+		
+		suma<-suma+nu
+		n<-n+1
+		
+		
+			si nu>=0 entonces 
+			posi<-posi+1
+			fin si
+		
+		fin mientras 
+		
+	pro<-suma/cant
+	pos<- n/posi
+	
+	escriba "el promedio total es " , pro
+	llamar nueva_linea
+	escriba "la cantidad de positivos ingresados es " ,posi
+	llamar nueva_linea
+	escriba "el promedio total es ",pos
+fin	

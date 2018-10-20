@@ -1,0 +1,38 @@
+entero num1,num2,num3
+
+inicio
+
+escriba "escriba numero "
+llamar nueva_linea
+lea num1
+
+escriba "escriba numero "
+llamar nueva_linea
+lea num2
+
+
+escriba "escriba numero "
+llamar nueva_linea
+lea num3
+
+si (num1>num2)y(num1>num3)entonces
+escriba "el mayor es " 
+escriba num1
+
+sino
+
+si (num2>num1)y(num2>num3)entonces
+escriba "el mayor es "
+escriba num2
+
+sino 
+
+si (num3>num1)y(num3>num2)entonces
+escriba "el mayor es "
+escriba num3
+
+fin si 
+fin si
+fin si 
+fin
+

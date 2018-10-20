@@ -1,0 +1,33 @@
+ real salario,extra,cextra
+ entero horas,valor,vlor
+ 
+ inicio
+ 
+  
+  escriba " ingrese horas trabajadas"
+  llamar nueva_linea 
+  lea horas 
+  escriba "valor de horas"
+  llamar nueva_linea 
+  lea valor
+  
+   
+ si (horas>40) entonces 
+ extra<-horas-40 
+ salario<-40*valor
+ cextra<-valor/0.50*extra
+ escriba "el salario es ", salario +cextra
+  
+ 
+  
+ sino 
+ escriba "escriba el salario es " ,hora * valor
+ fin si    
+   
+   
+   
+     
+ 
+  fin
+    
+  

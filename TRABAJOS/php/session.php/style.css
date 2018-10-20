@@ -1,0 +1,48 @@
+body{
+ background:#AFB5D5;
+
+}
+
+div{
+ text-align: center;
+ font-size: 18px;
+ font-family: monospace;
+ font-style: normal;
+
+}
+form{
+ color: white;
+ background: #7A89DA;
+ font-size: 18px;
+ font-family: monospace;
+ position: relative;
+ margin: 20px;
+ padding: 20px;
+ top: 23px;
+ left: 25%;
+ width: 40%;
+}
+input{
+	border-radius: 15px;
+	border-color: black;
+	color: rgb(11, 17, 51);
+	margin: 20px;
+    padding: 20px;
+    font-size: 18px;
+
+}
+.titulo{
+	font-size: 30px;
+	text-align: center;
+	font-family: Gill Sans Ultra Bold;
+
+}
+.Entrar{
+	color: black;
+	font-size:  initial;
+}
+a{
+	font-family:helvetica;
+	color:white; text-decoration: none;
+	font-size: 16px;
+}

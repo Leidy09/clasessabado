@@ -1,0 +1,44 @@
+arreglo [5]de cadena [25] nombres 
+arreglo [5]de cadena [25] edades
+
+entero i
+
+inicio
+			
+ 
+		para i<-0 hasta 4 haga
+		escriba "escriba el [",i + 1, "] nombre  : "
+		lea nombres[i]
+		llamar nueva_linea 
+		escriba "ingrese la edad de " , nombres[i] ,": "
+		
+		lea edades[i]
+		fin para 
+	
+	   llamar nueva_linea()
+	   escriba "nombres ingresados "
+	   llamar nueva_linea()
+	   
+	   
+	   //mostrar nombres ingresados 
+	   para i<-0 hasta 4 haga 
+	   si (nombres[i] = "leidy") entonces 
+	   escriba nombres[i]
+	   llamar nueva_linea()
+	   
+	   
+	   fin si
+	   fin para 
+	   
+	   // mayores a 18
+	   
+	   
+	   para i<-0 hasta 4 haga 
+	   si (edades[i] >= 18) entonces 
+	   escriba nombres[i] "edad", edades[i]
+	   llamar nueva_linea 
+	   fin si 
+	   fin para 
+	   
+	
+fin 

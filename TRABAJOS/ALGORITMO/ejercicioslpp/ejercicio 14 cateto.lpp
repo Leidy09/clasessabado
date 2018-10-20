@@ -1,0 +1,17 @@
+entero catetox,catetoy,cateto,raiz
+inicio
+
+escriba "cateto X "
+lea catetox
+llamar nueva_linea 
+
+escriba "cateto Y "
+lea catetoy
+llamar nueva_linea 
+
+cateto<-catetox^2+catetoy^2
+raiz<-cateto^(1/2)
+
+escriba "la hipotenusa es " ,raiz
+fin
+

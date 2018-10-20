@@ -1,0 +1,15 @@
+entero habitante,carro,carros,carrito
+
+inicio
+
+escriba "numero de habitantes " 
+lea habitante
+
+carro<-habitante/200
+carros<-carro/2000
+carrito<-carro-carros
+
+escriba "la cantidad de carros electricos son " , carros ," carros "
+llamar nueva_linea 
+escriba " la cantidad de carros normales  son " , carrito, " carro "
+fin

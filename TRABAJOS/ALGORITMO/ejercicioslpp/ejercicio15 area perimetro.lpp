@@ -1,0 +1,52 @@
+entero lados,area
+real ladoA,ladoB,ladoC,circulo,perimetro,radio
+inicio
+ 
+  escriba "tama? circulo "
+ lea circulo
+ llamar nueva_linea
+ perimetro<-circulo*3.14
+ radio<-circulo/2
+ escriba "el area del circulo es " , perimetro*radio/2
+ llamar nueva_linea
+ escriba "el perimetro del cuadrado es " ,perimetro
+  
+ llamar nueva_linea
+ 
+escriba "lados del cuadradro "
+lea lados 
+area<-lados*lados
+escriba "el area del cuadrado es " ,area 
+llamar nueva_linea 
+perimetro<-lados*4
+escriba "el perimetro del cuadrado es " , perimetro
+
+ llamar nueva_linea 
+ 
+ escriba "altura del rectangulo "
+ lea ladoA
+ llamar nueva_linea 
+ escriba "base del rectangulo  "
+ lea ladoB
+ llamar nueva_linea 
+ escriba "el area del rectangulo es " , ladoA*ladoB
+ llamar nueva_linea
+ escriba "el perimetro del rectangulo es " , ladoA*2+ladoB*23
+ 
+  llamar nueva_linea 
+  
+ escriba "lado A triangulo altura "
+ lea ladoA
+ llamar nueva_linea 
+ escriba "lado B del triangulo base "
+ lea ladoB
+ llamar nueva_linea
+ escriba "lado C del triangulo "
+ lea ladoC
+ llamar nueva_linea 
+ escriba "el area del triangulo es " , ladoA*ladoB/2
+ llamar nueva_linea 
+ escriba "el perimetro de un triangulo es " ,ladoA+ladoB+ladoC
+ 
+ 
+fin

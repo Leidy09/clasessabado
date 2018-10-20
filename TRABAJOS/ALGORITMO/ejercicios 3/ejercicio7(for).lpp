@@ -1,0 +1,19 @@
+ entero n
+ real num
+ 
+inicio 
+
+	para n<-1 hasta 10 haga 
+	
+	escriba "ingrese numeros " ,n
+	llamar nueva_linea 
+	lea num 
+	llamar nueva_linea
+	
+		si num>0 entonces 
+		escriba "el numero es positivo" ,num
+		llamar nueva_linea 
+		
+		fin si 
+	fin para
+fin	

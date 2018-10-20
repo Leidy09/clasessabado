@@ -1,0 +1,25 @@
+/*Modifique  el  anterior  algoritmo  para  que  el  programa  sume  n  números.  El 
+número de datos debe ser ingresado por el usuario.  La salida debe mostrar el 
+orden de los números.*/
+
+entero num,n,suma,ing
+
+inicio
+suma<-0
+	Escriba "Digite cuantas notas va a calcular: "
+	Lea ing
+	
+	para n<-1 hasta ing haga 
+
+	escriba  "  ingrese numeros" ,n
+
+	lea num 
+
+suma<-suma+num
+
+	fin para 
+	
+	
+	llamar nueva_linea
+	escriba "la suma de los numeros es " ,suma
+fin

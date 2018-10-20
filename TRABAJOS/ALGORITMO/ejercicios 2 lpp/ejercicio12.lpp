@@ -1,0 +1,37 @@
+entero tamaño
+
+inicio
+
+escriba "ingrese tamaño del angulo"
+llamar nueva_linea
+lea tamaño 
+
+si (tamaño<90)entonces 
+escriba "el angulo es agudo"
+
+sino
+ 
+si (tamaño=90)entonces 
+escriba "el angulo es recto"
+
+sino 
+
+si(tamaño>90)y(tamaño<180)entonces
+escriba "el angulo es obtuso"
+
+sino
+
+si (tamaño=180)entonces 
+escriba "el angulo es llano"
+
+sino
+
+si(tamaño>180)y(tamaño<360)entonces
+escriba "el angulo es concavo"
+
+fin si 
+fin si 
+fin si 
+fin si  
+fin si
+fin

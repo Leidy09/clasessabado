@@ -1,0 +1,14 @@
+entero horas,preciohora
+
+inicio
+ escriba " cantidad de horas por semanas "
+ lea horas
+ 
+ llamar nueva_linea 
+ 
+ preciohora<-horas*3800
+   
+ escriba "el salario es " , preciohora*4
+ fin
+
+

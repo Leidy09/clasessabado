@@ -1,0 +1,29 @@
+/*Modifique el algoritmo del punto 4   para que calcule el promedio de n notas. El 
+número de notas debe ser solicitado al usuario.*/
+
+
+
+entero n,num
+real suma,pro,nota
+
+inicio
+		escriba "digite el numero de notas que desea ingresar "
+		lea num
+		suma<-0
+	para n<-1 hasta num haga 
+	
+		escriba "ingrese nota ",n
+		llamar nueva_linea 
+		lea nota
+		suma<-suma+nota 
+		
+		
+	fin para
+		
+		pro<-suma/7
+
+
+		escriba "la suma es " , suma
+		llamar nueva_linea 
+		escriba "el promedio es " , pro 
+fin

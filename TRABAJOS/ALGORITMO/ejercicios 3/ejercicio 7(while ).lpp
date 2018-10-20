@@ -1,0 +1,28 @@
+/* Una persona desea invertir su dinero en un banco, el cual le otorga un 2% de 
+interés. Cual será la cantidad de dinero que esta persona tendrá al cabo de un 
+año si la ganancia de cada mes es reinvertida*/
+
+
+entero n
+real valor,interes 
+
+inicio
+n<-1
+
+	escriba " ingrese valor a invertir "
+	lea valor 
+	
+	interes<- valor*1.02
+	
+
+		mientras (n<=12) haga 
+		
+		interes <-interes*1.02
+		n<-n+1	
+		
+		fin mientras 
+		
+		escriba "el total es  a apagar al final del año es " , interes 
+
+
+fin 

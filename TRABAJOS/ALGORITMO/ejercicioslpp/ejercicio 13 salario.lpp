@@ -1,0 +1,33 @@
+cadena [100] nombre
+real valor,aumento,salario
+
+inicio
+
+escriba "ingrese nombre "
+lea nombre
+
+escriba "ingrese sueldo "
+lea valor
+
+aumento<- valor*0.10
+salario<-valor+aumento
+
+
+escriba "el aummento del 10% es " ,salario
+
+llamar nueva_linea 
+
+aumento<-valor*0.12
+salario<-valor+aumento
+
+
+escriba "el aumento del 12% es " ,salario
+
+llamar nueva_linea
+
+aumento<-valor*0.15
+salario<-valor+aumento
+
+escriba "el aumento del 15% es " ,salario
+
+fin

@@ -1,0 +1,47 @@
+/*Desarrollar un algoritmo que pida al usuario n números, los que sean igual a 
+cero los contará, los que sean mayores a cero los multiplicará y los que sean 
+menores  no  los  toma  en  cuenta.  Imprimir  la  multiplicación  de  los  mayores  a 
+cero, el total de ceros. */
+
+entero n,can
+real num,suma,multi
+
+inicio
+	suma<-0
+	multi<-0
+	escriba "ingrese la cantidad de numeros "
+	lea can
+
+	para n<-1 hasta can haga 
+	escriba "ingrese numero " ,n
+	llamar nueva_linea 
+	lea num
+	llamar nueva_linea
+	
+		si num=0 entonces 
+		suma<-num+1
+			sino
+			si num>0 entonces
+		multi<-num*num
+			fin si 
+		fin si
+		
+	escriba "los numeros igual a cero son" ,suma
+	llamar nueva_linea 
+	escriba "la multiplicacion de los numeros mayores a cero son " ,multi
+	llamar nueva_linea
+	fin para
+fin		
+	
+	
+
+
+
+
+
+
+
+
+
+
+fin

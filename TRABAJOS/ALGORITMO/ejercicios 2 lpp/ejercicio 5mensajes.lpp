@@ -1,0 +1,34 @@
+//Hacer un  algoritmo  que muestre  un  mensaje de  acuerdo  a  la edad ingresada
+//de la siguiente manera: Si la edad es de 0 a 10 años “niño”, si la edad es de 11 
+//a 14 años “púber” , si la edad es de 15 a 18 años “ adolescente” , si la edad es 
+//de 19 a 25 años “joven” , si la edad es de 26 años en adelante “ adulto”.
+
+entero edad
+
+inicio 
+
+escriba "ingrese su edad "
+lea edad 
+llamar nueva_linea 
+
+si (edad<=10)entonces
+escriba "me encanta tu actitud :P"
+sino 
+si (edad=11)o(edad<=14)entonces
+escriba "¡Veo que te has esforzado mucho!"
+sino 
+si(edad=15)o(edad<=18)entonces 
+escriba "No siempre podemos construir el futuro de nuestra juventud, pero podemos construir nuestros jovenes para el futuro. "
+sino 
+si (edad=19)o(edad<=25)entonces
+escriba "el hoy esta en tus manos"
+sino 
+si (edad>=26)entonces 
+escriba "nunca es demasiado tarde para ser feliz  "
+
+fin si 
+fin si 
+fin si 
+fin si 
+fin si 
+fin

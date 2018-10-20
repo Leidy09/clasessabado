@@ -1,0 +1,29 @@
+/*Encontrar el menor valor de un conjunto de n números dados.*/
+
+
+entero j,num,numero,,mayor
+
+
+inicio 
+j<-1
+mayor<-0
+
+	
+	escriba  "ingrese la cantidad de numeros "
+	lea num
+	 
+	mientras (j<=num)haga
+	
+	escriba "ingrese  numeros "
+	lea numero
+	
+	si (numero>mayor )entonces  
+	mayor<- numero
+	
+	fin si 
+	j<-j+1
+	fin mientras  
+	
+	escriba "el numero mayor es " , mayor
+
+fin

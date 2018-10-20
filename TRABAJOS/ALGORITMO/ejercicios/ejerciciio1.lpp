@@ -1,0 +1,21 @@
+
+entero num,valor
+
+inicio
+
+escriba "ingrese numero entero "
+lea num
+
+valor<-num mod 2
+
+si (valor=0)entonces 
+escriba "el numero es par"
+
+sino 
+
+si (valor=1)entonces
+escriba "l numero es impar"
+
+fin si 
+fin si 
+fin 

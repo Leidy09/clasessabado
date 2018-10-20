@@ -1,0 +1,12 @@
+entero actual,nacimiento
+
+inicio
+
+escriba "escriba el año en acual "
+lea actual
+llamar nueva_linea 
+escriba "escriba año nacimiento "
+lea nacimiento 
+llamar nueva_linea 
+escriba "la edad  actual es " , actual-nacimiento
+fin

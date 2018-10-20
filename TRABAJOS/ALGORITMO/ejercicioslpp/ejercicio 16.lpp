@@ -1,0 +1,15 @@
+//Calcular  el  número  de  pulsaciones  que  una  persona  debe  tener  por  cada  10  segundos  de 
+//ejercicio, si la formula es:>//
+//núm. pulsaciones = (220 – edad)/10//
+
+
+entero edad,numpulsaciones 
+
+inicio
+
+escriba " escriba su edad "
+lea edad 
+llamar nueva_linea 
+numpulsaciones<-(220-edad)/100
+escriba "la cantidad de pulsaciones cada 10 segundos es " , numpulsaciones
+fin

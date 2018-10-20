@@ -1,0 +1,36 @@
+entero n
+
+real cantidad,valorar,cantidadar,vl,suma
+
+
+inicio 
+suma<-0
+n<-1
+	escriba "ingrese la cantidad de articulos a comprar "
+	llamar nueva_linea 
+	lea cantidad
+	
+	mientras (n<=cantidad)haga 
+	
+	escriba "articulos" ,n
+	
+	llamar nueva_linea 
+	escriba "valor de articulos "
+	lea valorar
+	llamar nueva_linea 
+	escriba "cantidad de articulos tomado "
+	llamar nueva_linea 
+	lea cantidadar
+	
+	vl<-valorar*cantidadar 
+	
+	escriba "el total de este articulo es " , vl
+	suma<-suma+vl
+	llamar nueva_linea
+	n<-n+1
+	
+	fin mientras 
+	
+	escriba "el total a la compra de articulos es " , suma
+fin
+	

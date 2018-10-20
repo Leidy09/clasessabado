@@ -1,0 +1,24 @@
+/*Desarrollar un algoritmo y diagrama de flujo que lea n números, determine y 
+muestre el promedio de los n números.*/
+
+entero num,n,suma,i
+real pro
+
+inicio
+
+suma<-0
+i<-1
+escriba "ingrese cantidad de numeros "
+lea num
+
+mientras(i<=num)haga
+escriba  "por favor ingrese numeros "
+lea n
+suma<-suma+n
+i<-i+1
+fin mientras 
+
+pro<-suma/num
+
+escriba "el promedio es " , pro
+fin

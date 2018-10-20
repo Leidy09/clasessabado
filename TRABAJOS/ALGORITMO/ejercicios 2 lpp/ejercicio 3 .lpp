@@ -1,0 +1,25 @@
+entero numero,modulo
+
+
+inicio
+
+escriba "ingrese el numero"
+lea numero 
+modulo<-numero mod 2
+
+si (modulo=0 )entonces 
+escriba "el numero es par "
+sino 
+escriba "el numero es impar "
+
+
+ si (numero>0)entonces 
+escriba "es positivo"
+sino
+escriba "es negativo"
+
+fin si
+fin si 
+
+ 
+fin

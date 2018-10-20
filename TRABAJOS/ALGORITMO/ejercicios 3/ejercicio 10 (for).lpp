@@ -1,0 +1,25 @@
+//.  Encontrar el mayor valor de un conjunto de n números dados.//
+
+
+
+entero n,num,cant,mayor
+
+inicio
+mayor<-0
+escriba "ingrese la cantidad de numeros " 
+llamar nueva_linea 
+lea cant
+
+	para n<-1 hasta cant haga 
+	
+	escriba "ingrese numeros " ,n
+	llamar nueva_linea 
+	lea num 
+	
+		si (num>mayor)entonces
+		mayor<-num
+		fin si
+	
+	fin para 
+		escriba "el numero mayor es " ,mayor	
+fin

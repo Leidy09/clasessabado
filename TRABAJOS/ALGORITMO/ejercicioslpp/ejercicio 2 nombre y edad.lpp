@@ -1,0 +1,13 @@
+cadena [45] nombre
+entero edad
+inicio
+escriba "nombre del integrante"
+llamar nueva_linea
+lea nombre
+escriba "edad del integrante"
+llamar nueva_linea
+lea edad
+escriba "su nombres es ",nombre
+llamar nueva_linea
+escriba "su edad es ",edad
+fin

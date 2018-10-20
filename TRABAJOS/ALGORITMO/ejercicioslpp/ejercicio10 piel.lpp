@@ -1,0 +1,20 @@
+real piel,dia,actual,nacimiento,edad,dias
+
+inicio
+  piel<- 0.01
+  dia<- 10
+  
+  escriba "fecha nacimiento "
+  lea nacimiento
+  llamar nueva_linea
+  escriba " año actual "
+  lea actual
+  llamar nueva_linea 
+  edad<- actual-nacimiento
+  dias<-edad*365
+  llamar nueva_linea 
+  escriba "la edad es " , edad
+  llamar nueva_linea 
+  escriba "la cantidad de piel perdida en kilos es " , dias/piel*0.00001
+  
+  fin

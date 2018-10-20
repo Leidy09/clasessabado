@@ -1,0 +1,12 @@
+  body{
+  	background : #000000;
+  }
+
+  h1{
+  	color: white;
+  	font-size: 50px;
+  	text-align: center;
+  	
+  	background:url(../img/descarga.jpg);
+
+  }

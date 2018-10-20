@@ -1,0 +1,12 @@
+cadena [45] nombre 
+entero bienvenido
+inicio 
+
+escriba "digite nombre "
+lea nombre 
+
+llamar nueva_linea 
+
+escriba "bienvenido " , nombre 
+
+fin 

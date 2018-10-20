@@ -1,0 +1,18 @@
+entero nacimiento,actual,edad,dias
+
+inicio 
+escriba "fecha nacimiento "
+lea nacimiento
+
+escriba "año actual "
+lea actual
+
+edad<-actual-nacimiento
+dias<-edad*365
+escriba "la edad es " , edad 
+llamar nueva_linea
+
+escriba "semanas vividas " , dias/52
+
+
+fin

@@ -1,0 +1,79 @@
+body{
+	background-image:url(large-background-1024x724);
+	
+	padding:0px;
+	margin: 50px;
+}
+
+p{
+font-family:helvetica;
+ font-size: 20px;
+ color: white;
+ font-style: initial;
+ 
+
+}
+
+a{
+	
+	font-family:helvetica;
+	color:white; 
+	text-decoration: none;
+	font-style: inherit;
+	font-size: 16px;
+	
+}
+
+input{
+	border-radius: 15px;
+	height: 20px;
+	margin-bottom: 10px;
+
+}
+
+label{
+	
+	font-size: 20px;
+}
+
+ul{
+	
+	 font-family:helvetica;
+	 font-size: 20px;
+	 color: white;
+	 font-style: initial;
+	 text-align: justify-all;
+}
+
+nav{
+	background: rgb(179, 104, 126);
+	padding: 1%;
+}
+
+form{
+	background:rgb(179, 104, 126);
+	width: 80%;
+	margin: 20px;
+	position: relative;
+	padding: 0px;
+	top: 15px;
+	left: 10%;
+}
+
+h2{
+
+text-align: center;
+color: white;
+position: relative;
+font-family:helvetica;
+font-style: inherit;
+
+}
+
+div{
+ color: white;
+ font-style: initial;
+ font-family:helvetica;
+ background: rgb(179, 104, 126);
+
+}

@@ -1,0 +1,43 @@
+/* Determinar la cantidad de dinero que recibirá un trabajador por concepto de las 
+horas extras  trabajadas  en una  empresa,  sabiendo  que  cuando  las  horas  de 
+trabajo  exceden  de  40,  el  resto  se  consideran  horas  extras  y  que  estas  se 
+pagan  al  doble  de  una  hora  normal  cuando  no  exceden  de  8;  si  las  horas 
+extras exceden de 8 se pagan las primeras 8 al doble de lo que se pagan las 
+horas normales y el resto al triple
+*/
+
+real horas,valor,extra,hextra,pago,extras,hpgex
+
+inicio
+
+escriba "ingrese las horas "
+llamar nueva_linea
+lea horas
+llamar nueva_linea
+
+escriba "valor de la hora "
+llamar nueva_linea
+lea valor
+llamar nueva_linea
+
+extras<--48
+si (horas<=40)entonces 
+escriba "el valor es " ,horas*valor
+
+sino 
+si (horas>40)o(horas<=48)entonces 
+extra<-horas-40
+escriba "el valor es " ,horas*valor+extra*valor
+
+sino
+
+si(horas>48)entonces
+hextra<-extra*(valor*2)
+hpgex<-extra*(valor*3)
+escriba "el valor a pagar es " ,horas*valor+hextra+hpgex
+
+fin si
+fin si
+fin si
+
+fin

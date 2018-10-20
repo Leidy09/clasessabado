@@ -1,0 +1,18 @@
+entero minutos,segundos,horas
+real dias
+inicio
+escriba "cantidad de minutos"
+lea minutos
+segundos <- minutos*60
+horas <- minutos/60
+dias <- horas div 24
+llamar nueva_linea
+escriba " tiempo en segundos ", segundos 
+llamar nueva_linea
+escriba "tiempo en horas" , horas
+llamar nueva_linea
+escriba "tiempo en dias" , dias
+
+llamar nueva_linea
+
+fin

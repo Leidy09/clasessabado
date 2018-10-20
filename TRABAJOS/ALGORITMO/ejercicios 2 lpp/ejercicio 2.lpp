@@ -1,0 +1,27 @@
+entero nm1,nm2
+
+inicio 
+escriba "  escriba  numero "
+lea nm1
+llamar nueva_linea 
+escriba " escriba   numero "
+lea nm2
+llamar nueva_linea 
+
+ // si nm1 es igual a nm2 se multiplica  
+si (nm1=nm2)entonces 
+ escriba " el resultado es " ,nm1*nm2
+ sino
+ // si nm1 es> mayor a nm2 se resta 
+  si (nm1>nm2)entonces
+   escriba " el resultado es " ,nm1-nm2
+   sino 
+  // si nm1 es < menor a nm2 se suma 
+   si (nm1<nm2)entonces
+   escriba " el resultado es " ,nm1+nm2
+   fin si
+   fin si 
+   fin si
+    
+    fin
+

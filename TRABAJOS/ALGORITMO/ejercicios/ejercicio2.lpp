@@ -1,0 +1,18 @@
+entero num
+
+inicio
+
+escriba "ingrese un numero entero "
+lea num
+
+si (num>0)entonces
+escriba "el numero es positivo "
+
+sino 
+
+si (num<0)entonces 
+escriba "el numero es negativo"
+
+fin si 
+fin si 
+fin

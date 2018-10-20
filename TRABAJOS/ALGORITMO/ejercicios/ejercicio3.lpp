@@ -1,0 +1,24 @@
+entero valor,valor2
+
+inicio 
+
+escriba "ingrese un valor "
+lea valor 
+
+si (valor>0)entonces
+//escriba "es positivo "
+llamar nueva_linea
+escriba "ingrese otro valor "
+lea valor2
+
+escriba "la suma es " ,valor+valor2
+llamar nueva_linea
+escriba "la resta es " ,valor-valor2
+llamar nueva_linea
+escriba "el producto es " ,valor*valor2
+
+
+fin si
+
+
+fin

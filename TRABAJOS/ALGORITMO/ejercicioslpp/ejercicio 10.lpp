@@ -1,0 +1,52 @@
+entero tablas,puntilla,pegante,pintura,lija
+real valorpin,valorpun,valorpe,valorli,valortab,costo,valor
+
+inicio 
+
+escriba " ingrese cantidad de productos "    
+llamar nueva_linea 
+escriba "tablas "
+lea tablas
+llamar nueva_linea
+escriba "puntillas "
+lea puntilla  
+llamar nueva_linea
+escriba "pegante "
+lea pegante
+llamar nueva_linea
+escriba "pintura "
+lea pintura
+llamar nueva_linea
+escriba "lijas "
+lea lija
+
+
+llamar nueva_linea
+
+escriba "costo materiales "
+llamar nueva_linea 
+escriba "tablas "
+lea valortab
+llamar nueva_linea
+escriba "puntillas "
+lea valorpun  
+llamar nueva_linea
+escriba "pegante "
+lea valorpe
+llamar nueva_linea
+escriba "pintura "
+lea valorpin
+llamar nueva_linea
+escriba "lijas "
+lea valorli
+escriba "costo de los materiales por cantidad " , "$" , tablas*valortab+puntilla*valorpun+pegante*valorpe+pintura*valorpin+lija*valorli
+costo<-tablas*valortab+puntilla*valorpun+pegante*valorpe+pintura*valorpin+lija*valorli
+llamar nueva_linea 
+valor<-costo*0.20
+costo<-tablas*valortab+puntilla*valorpun+pegante*valorpe+pintura*valorpin+lija*valorli
+escriba "costo mano obra es " ,valor
+escriba "el valor total de la obra es " , costo+valor
+
+
+
+fin

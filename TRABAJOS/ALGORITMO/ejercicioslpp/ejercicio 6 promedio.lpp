@@ -1,0 +1,17 @@
+real promedio,nota_uno,nota_dos,nota_tres,nota_cuatro,nota_cinco
+
+inicio
+escriba "nota"
+lea nota_uno
+escriba "nota"
+lea nota_dos
+escriba "nota"
+lea nota_tres
+escriba "nota"
+lea nota_cuatro
+escriba "nota"
+lea nota_cinco
+promedio<-(nota_uno+nota_dos+nota_tres+nota_cuatro+nota_cinco)/5
+escriba "el valor del promedio es ", promedio 
+llamar nueva_linea
+fin

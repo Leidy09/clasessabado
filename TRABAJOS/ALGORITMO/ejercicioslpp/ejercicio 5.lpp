@@ -1,0 +1,20 @@
+cadena [45] nombre,apellido,dominio
+entero num
+ 
+
+inicio
+escriba "escriba primer nombre " 
+lea nombre 
+llamar nueva_linea 
+escriba " ingrese apellido "
+lea apellido 
+llamar nueva_linea
+escriba " ingrese el dominio que quiera tener en la cuenta  hotmail.com ,google.com ,yahoo.es , utp.edu.co "
+lea dominio 
+ llamar nueva_linea
+ num<- longitud(apellido)
+ 
+escriba "la direcion es "  , nombre[1], nombre[2],apellido[num-1],apellido[num],"@",dominio
+
+
+fin

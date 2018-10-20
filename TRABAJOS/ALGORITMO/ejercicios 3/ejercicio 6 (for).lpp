@@ -1,0 +1,35 @@
+ /*Modifique el algoritmo del punto 4, para que imprima los siguientes datos:
+ Número de notas aprobadas 
+ Número de notas no aprobadas
+ Promedio total*/
+ 
+ entero n,cant
+ real suma,pro,nota,aprobada,reprobada 
+ 
+
+inicio
+	suma<-0
+	escriba "ingrese la cantidad de notas "
+	llamar nueva_linea
+	lea cant
+	
+		para n<-1 hasta cant haga
+		escriba "ingrese nota " ,n
+		llamar nueva_linea 
+		lea nota 
+		suma<-suma+nota
+		
+			si nota>3.0 entonces 
+			aprobada<-aprobada+1
+			sino 
+			 reprobada<-reprobada+1
+			fin si
+			
+		fin para 
+		pro<-suma/7
+		escriba "la cantida de notas aprobadas es " ,aprobada	
+		llamar nueva_linea 
+		escriba "la cantidad de notas reprobadas es " ,reprobada
+		llamar nueva_linea 
+		escriba "el promedio es " ,pro
+fin

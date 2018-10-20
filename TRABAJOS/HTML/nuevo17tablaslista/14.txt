@@ -1,0 +1,47 @@
+
+
+entero amarillo,azul,rojo,verde,blanco,total,bo,desc
+
+inicio
+
+ escriba "total compra "
+lea total
+
+escriba "color bolita 1(blanco)2(verde)3(amarillo)4(azul)5(rojo) "
+lea bo
+
+
+si (bo=1)entonces
+desc<-total-0
+escriba "el total a pagar con descuento es " ,desc
+
+sino 
+
+si (bo=2)entonces
+desc<-total-(total*0.10)
+escriba "el total a pagar  con descuento es " ,desc
+
+sino
+ 
+si (bo=3)entonces
+desc<-total-(total*0.25)
+escriba "el total a pagar con descuento es " ,desc
+
+sino
+
+si (bo=4)entonces 
+desc<-total-(total*0.50)
+escriba "el total a pagar con descuento es " ,desc
+
+sino
+
+si(bo=5)entonces
+desc<-total-(total*100)/100
+escriba "el total a pagar con descuento es " ,desc
+
+fin si
+fin si
+fin si
+fin si
+fin si
+fin 

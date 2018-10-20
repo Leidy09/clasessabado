@@ -1,0 +1,14 @@
+entero numeroA,numeroB,temporalA,temporalB
+INICIO
+ESCRIBA "NUMERO MODULO A"
+LEA numeroA
+LLAMAR NUEVA_LINEA
+ESCRIBA "NUMERO MODULO B"
+LEA numeroB
+LLAMAR NUEVA_LINEA 
+temporalB<-numeroA
+temporalA<-numeroB
+numeroB<-temporalB
+numeroA<-temporalA
+escriba "el nuevo valor de A es ", numeroA," el nuevo valor de B es ",numeroB
+ FIN

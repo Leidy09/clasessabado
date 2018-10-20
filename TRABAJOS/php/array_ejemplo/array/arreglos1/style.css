@@ -1,0 +1,81 @@
+
+body{
+	 background:url("imagenes/img.jpg") ;
+	 background-size: 150%;
+	 padding: 40px;
+ 	 margin: 20px;
+    } 
+
+h2{
+	font-family:Times New Roman;
+	text-align: center;
+	color: white;
+  }
+
+h1{
+	font-family:Times New Roman;
+	text-align: center;
+	color: white;
+  }
+
+p{
+	 font-family: times new Roman;
+	 font-size: 20px;
+	 color:white;
+	 text-align: justify;
+
+ }
+
+li{
+
+	list-style-type: disc;
+	color: white;
+	font-family: times new Roman;
+
+   }
+
+nav.inicio{
+		height: 25px;
+		background-color:#000;
+	    padding-top: 25px;
+		text-align: center;
+
+	      }
+
+a.fuentes{
+		color: white;
+		font-family:Times New Roman;
+		display: inline-block;
+		background-color:#0F0511;
+		text-align: center;
+			
+	    }
+
+div.ejer{
+    	text-align: justify;
+    	font-family: New Roman;
+    	display: inline-block;
+    	position: relative;
+    	
+
+        }
+
+
+label{
+    	text-align: center;
+    	font-family: New Roman;
+    	display: inline-block;
+    	color: white;
+
+     }
+
+input{
+
+	text-align: justify;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	height: 20px;
+	width: 20px:
+	padding :15px;
+    
+    }

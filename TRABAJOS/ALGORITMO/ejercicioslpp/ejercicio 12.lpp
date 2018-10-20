@@ -1,0 +1,16 @@
+entero nhombres,nmujeres,total
+real proceso,procesos
+
+inicio 
+escriba " cantidad de hombre "
+lea nhombres 
+llamar nueva_linea
+escriba " cantidadd de muejeres " 
+lea nmujeres
+llamar nueva_linea 
+total<-nhombres+nmujeres
+proceso<-nhombres/total*100
+procesos<-nmujeres/total*100
+escriba " el porcentaje de mujeres " , proceso
+escriba " el porcentaje de mujeres " , procesos
+fin

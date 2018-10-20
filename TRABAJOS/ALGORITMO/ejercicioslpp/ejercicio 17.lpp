@@ -1,0 +1,13 @@
+real salario,aumento,sueldo
+
+inicio 
+
+escriba " ingrese sueldo atual obrero  "
+lea sueldo
+llamar nueva_linea 
+aumento<-sueldo*0.25
+salario<-sueldo+aumento 
+llamar nueva_linea
+escriba "el sueldo del obrero con el 25% de aumento es " , salario
+
+fin

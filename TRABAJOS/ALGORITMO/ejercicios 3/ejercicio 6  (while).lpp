@@ -1,0 +1,63 @@
+entero n, ama, ros, roj, ver, azul, placa
+
+cadena [25] res
+
+
+inicio
+	 
+    res<-"si"
+ 	ama<-0
+ 	azul<-0
+ 	roj<-0
+ 	ros<-0
+ 	ver<-0
+ 	n<-0
+ 	
+	 
+	mientras (res = "si")o( res ="SI") haga   
+	
+	escriba "ingrese el numero de la placa "
+	
+	lea placa 
+	llamar nueva_linea 
+	
+	si (placa= 1) o (placa =2) entonces 
+	ama <-ama+1
+	sino
+	 
+	si (placa=3)o(placa=4)entonces 	
+	ros<-ros+1
+	sino
+	
+	si(placa=5)o(placa=6)entonces 
+	roj<-roj+1
+ 	sino 
+ 	
+ 	si (placa=7)o(placa=8)entonces 	
+ 	ver<-ver+1
+ 	sino
+ 	 
+ 	si (placa=9)o (placa=0)entonces 	
+ 	azul<-azul+1
+ 	
+ 	fin si 
+ 	fin si 
+ 	fin si
+ 	fin si
+ 	fin si
+ 	escriba "desea continuar SI o NO  " 
+ 	lea res 
+ 	fin mientras
+ 	
+ 	escriba "la cantida de vehiculos con calcomania amarilla son " , ama
+ 	llamar nueva_linea
+ 	escriba "la cantidad de vehiculos con calcomania roja son " , roj 
+ 	llamar nueva_linea
+ 	escriba "la cantidad de vehiculos ingresados con calcomania azul son " ,azul
+ 	llamar nueva_linea
+ 	escriba "la cantidad de vehiculos ingresados con calcomania verde son " , ver
+ 	llamar nueva_linea
+ 	escriba "la cantidad de vehiculos ingresados con calcomania rosa son " , ros
+ 	llamar nueva_linea
+ 	
+fin  

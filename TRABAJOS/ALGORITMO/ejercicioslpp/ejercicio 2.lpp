@@ -1,0 +1,13 @@
+cadena [23] nombre 
+
+
+inicio 
+
+escriba "ingrese  nombre "
+lea nombre 
+
+llamar nueva_linea 
+
+escriba nombre, " ¿que haces frente  al computador con los ojos cerrados? no es que windons me dijo que cerrara las pestañas " 
+
+fin

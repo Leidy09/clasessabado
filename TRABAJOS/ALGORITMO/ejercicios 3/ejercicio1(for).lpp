@@ -1,0 +1,18 @@
+/*Desarrollar un algoritmo tal que dado como datos 10 números enteros, obtenga 
+la suma de los 10 números enteros. Se mostrará la suma de los 10 números 
+enteros.*/
+ 
+entero num,n,suma
+
+inicio
+suma<-0
+	para n<-1 hasta 10 haga 
+
+	escriba "escriba los 10 numeros enteros "
+	lea num 
+
+suma<-suma+num
+
+	fin para 
+	escriba "la suma de los numeros es " ,suma
+fin
